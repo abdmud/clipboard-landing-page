@@ -5,6 +5,7 @@ body {
     background-image: url(./images/bg-header-desktop.png);
     background-repeat: no-repeat;
     font-size: 1.15rem;
+    width: auto;
 }
 
 /* HERO */
@@ -40,9 +41,25 @@ h3 {
     color: hsl(210, 10%, 33%);
 }
 /* IMAGE TEXT */
+.image-text-grid {
+    margin-top: 5%;
+    margin-left: -5%;
+    width: auto;
+}
 .image-text-div {
     display: grid;
     grid-template-columns: 2fr 1fr;
+}
+.right {
+    margin-top: 5%;
+    margin-left: -25%;
+    width: 400px;
+}
+h4 {
+    font-size: 1.2rem;
+}
+.list-p {
+    color: hsl(201, 11%, 66%);
 }
 /* BUTTONS */
 button {
