@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+button {
+    font-family: 'Bai Jamjuree', sans-serif;
+    border: none;
+    border-radius: 10px;
+}
+
+.ios-btn {
+    background-color: hsl(171, 66%, 44%);
+}
+
+.mac-btn {
+    background-color: hsl(233, 100%, 69%);
+}
