@@ -25,9 +25,19 @@ body {
     margin-left: 27.5%;
     margin-top: -2%;
 }
-.hero p {
+.hero p,
+.sub-hero p {
     text-align: center;
     color: hsl(201, 11%, 66%);
+}
+/* SUB-HERO*/
+.sub-hero {
+    text-align: center;
+    margin-top: 5%;
+}
+h3 {
+    font-size: 1.8rem;
+    color: hsl(210, 10%, 33%);
 }
 /* BUTTONS */
 button {
