@@ -39,6 +39,11 @@ h3 {
     font-size: 1.8rem;
     color: hsl(210, 10%, 33%);
 }
+/* IMAGE TEXT */
+.image-text-div {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
 /* BUTTONS */
 button {
     font-family: 'Bai Jamjuree', sans-serif;
