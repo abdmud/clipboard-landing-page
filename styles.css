@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
 
+
 body {
     font-family: 'Bai Jamjuree', sans-serif;
     background-image: url(./images/bg-header-desktop.png);
     background-repeat: no-repeat;
     font-size: 1.15rem;
-    width: auto;
 }
 
 /* HERO */
@@ -43,7 +43,7 @@ h3 {
 /* IMAGE TEXT */
 .image-text-grid {
     margin-top: 5%;
-    margin-left: -5%;
+  /*  margin-left: -5%; */
     width: auto;
 }
 .image-text-div {
@@ -52,7 +52,7 @@ h3 {
 }
 .right {
     margin-top: 5%;
-    margin-left: -25%;
+   /* margin-left: -25%; */
     width: 400px;
 }
 h4 {
