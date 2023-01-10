@@ -110,6 +110,19 @@ h4 {
 .card p {
     margin-top: -3%;
 }
+/* BRANDS */
+.brands {
+    margin-top: 5%;
+}
+.brands-div {
+    display: flex;
+    justify-content: space-evenly;
+}
+.brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 /* BUTTONS */
 button {
     font-family: 'Bai Jamjuree', sans-serif;
