@@ -61,7 +61,8 @@ h3 {
 h4 {
     font-size: 1.2rem;
 }
-.list-p {
+.list-p,
+.workflow-paragraph {
     color: hsl(201, 11%, 66%);
 }
 /* TEXT COLUMN */
@@ -78,12 +79,21 @@ h4 {
     margin-top: 5%;
 }
 /* Cards */
+.workflow-div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 8%;
+}
+.workflow-paragraph {
+    margin-top: -1.5%;
+    margin-bottom: 5%;
+}
 .cards {
     display: flex;
     justify-content: space-evenly;
 }
 .card {
-    border: solid 1px blue;
     width: 20rem;
     display: flex;
     flex-direction: column;
