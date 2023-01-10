@@ -4,7 +4,6 @@
 body {
     font-family: 'Bai Jamjuree', sans-serif;
     background-image: url(./images/bg-header-desktop.png);
-    width: fit-content;
     background-repeat: no-repeat;
     font-size: 1.15rem;
 }
@@ -30,7 +29,8 @@ body {
 }
 .hero p,
 .sub-hero p,
-.text-column p {
+.text-column p,
+.card p {
     text-align: center;
     color: hsl(201, 11%, 66%);
 }
@@ -77,6 +77,29 @@ h4 {
 #devices-img {
     margin-top: 5%;
 }
+/* Cards */
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+.card {
+    border: solid 1px blue;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.blacklist img {
+    margin-top: 5%;
+}
+.card h5 {
+    font-size: 1.2rem;
+    color: hsl(210, 10%, 33%);
+}
+.card p {
+    margin-top: -3%;
+}
 /* BUTTONS */
 button {
     font-family: 'Bai Jamjuree', sans-serif;
@@ -90,12 +113,10 @@ button {
     font-size: 1rem;
     cursor: pointer;
 }
-
 .ios-btn {
     background-color: hsl(171, 66%, 44%);
     box-shadow: 5%;
 }
-
 .mac-btn {
     background-color: hsl(233, 100%, 69%);
 }
