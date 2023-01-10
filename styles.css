@@ -4,6 +4,7 @@
 body {
     font-family: 'Bai Jamjuree', sans-serif;
     background-image: url(./images/bg-header-desktop.png);
+    width: fit-content;
     background-repeat: no-repeat;
     font-size: 1.15rem;
 }
@@ -20,14 +21,16 @@ body {
     font-size: 2.5rem;
     color: hsl(210, 10%, 33%);
 }
-.hero-p-div {
+.hero-p-div,
+.text-column p {
     display: flex;
     width: 40rem;
     margin-left: 27.5%;
     margin-top: -2%;
 }
 .hero p,
-.sub-hero p {
+.sub-hero p,
+.text-column p {
     text-align: center;
     color: hsl(201, 11%, 66%);
 }
@@ -43,7 +46,7 @@ h3 {
 /* IMAGE TEXT */
 .image-text-grid {
     margin-top: 5%;
-  /*  margin-left: -5%; */
+    margin-left: -5%; 
     width: auto;
 }
 .image-text-div {
@@ -52,7 +55,7 @@ h3 {
 }
 .right {
     margin-top: 5%;
-   /* margin-left: -25%; */
+    margin-left: -25%; 
     width: 400px;
 }
 h4 {
@@ -60,6 +63,16 @@ h4 {
 }
 .list-p {
     color: hsl(201, 11%, 66%);
+}
+/* TEXT COLUMN */
+.text-column {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 8%;
+}
+.text-column-div p {
+    margin-top: 1%;
 }
 /* BUTTONS */
 button {
