@@ -7,6 +7,8 @@ html {
 
 body {
     font-family: 'Bai Jamjuree', sans-serif;
+    background-image: url(./images/bg-header-desktop.png);
+    background-repeat: no-repeat;
     font-size: 1.15rem;
     width: 1440px;
     margin: 0;
@@ -18,7 +20,7 @@ body {
     flex-direction: column;
     justify-content: center;  
     text-align: center;
-    margin-top: -10%;  
+    margin-top: 8%;  
 }
 .hero h1 {
     font-size: 2.5rem;
@@ -57,6 +59,9 @@ h3 {
 .image-text-div {
     display: grid;
     grid-template-columns: 2fr 1fr;
+}
+.left {
+    height: 580px;
 }
 .right {
     margin-top: 5%;
@@ -195,15 +200,142 @@ button {
 /**********/
 
 @media only screen and (max-width: 375px) {
+    html {
+        margin: 0;
+    }    
     body {
-        width: 375px;
-        align-items: center;
+            width: 375px;
+            align-items: center;
+            background-image: url(./images/bg-header-mobile.png);
+            background-repeat: no-repeat;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .hero-p-div,
+        .text-column p {
+            display: flex;
+            text-align: center;
+            width: 300px;
+            margin-left: 10%;
+        }
+        .left img {
+            width: 300px;
+            height: 250px;
+            margin-left: 5%;
+        }
+        .image-text-grid {
+            margin-left: 0%;
+            margin-top: 15%;
+        }
+        .image-text-div {
+            margin: 0;
+            text-align: center;
+            width: 360px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .right {
+            margin-top: -70%;
+            margin-left: 4%; 
+            width: 360px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .list-p {
+            width: 350px;
+        }
+        .text-column-div img {
+            width: 300px;
+            margin-top: 15%;
+        }
+        .workflow-div {
+            display: flex;
+            flex-direction: column;
+            width: 360px;
+        }
+        .cards {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 330px;
+            margin-left: 5%;
+            margin-top: 10%;
+            margin-bottom: 10%;
+        }
+        .brands-div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 340px;
+            margin-left: 5%;
+        }
+        .brand img {
+            width: 150px;
+            height: 50px;
+        }
+        .brand {
+            margin-top: 5%;
+            margin-bottom: 5%;
+        }
+        .bottom-hero {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;  
+            text-align: center;
+            margin-top: 6%;
+            margin-bottom: 4%; 
+        }
+        .bottom-hero p {
+            margin-top: 10%;
+            margin-bottom: 10%;
+        }
+        .bottom {
+            width: 350px;
+            margin-left: 0;
+        }
+        .bottom-btn {
+            margin-bottom: 20%;
+        }
+        .footer-div {
+            height: 455px;
+            background-color: hsl(201, 11%, 66%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: hsl(210, 10%, 33%);
+            padding-top: 15%;
+            padding-bottom: 5%;
+        }
+        .footer-links {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 5%;
+            width: 360px;
+            margin: 5% 0 5% 0;
+        }
+        .sm-icons {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 200px;
+            gap: 40px;
+            margin-bottom: 5%;
+        }
+        .fa-brands {
+            font-size: 30px;
+        }
+        button {
+            height: 3.5rem;
+            width: 320px;
+            margin-top: 3%;
+            font-size: 1rem;
+        }
     }
-    .hero-p-div,
-    .text-column p {
-    display: flex;
-    width: 150px;
-    margin-left: 27.5%;
-    margin-top: -2%;
-}
-  }
