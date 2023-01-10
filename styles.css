@@ -74,6 +74,9 @@ h4 {
 .text-column-div p {
     margin-top: 1%;
 }
+#devices-img {
+    margin-top: 5%;
+}
 /* BUTTONS */
 button {
     font-family: 'Bai Jamjuree', sans-serif;
